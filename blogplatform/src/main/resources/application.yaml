@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: blogplatform
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/blog_platform
+    username: postgres
+    password: password
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    open-in-view: false
+
+server:
+  port: 8081
