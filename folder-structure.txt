@@ -1,0 +1,49 @@
+
+## 📁 Backend Folder Structure
+
+src/main/java/com/example/blogplatform/
+│
+├── auth/
+│ ├── controller/
+│ ├── dto/
+│ ├── service/
+│ └── security/
+│
+├── user/
+│ ├── controller/
+│ ├── dto/
+│ ├── entity/
+│ ├── repository/
+│ └── service/
+│
+├── blog/
+│ ├── controller/
+│ ├── dto/
+│ ├── entity/
+│ ├── repository/
+│ └── service/
+│
+├── comment/
+│ ├── controller/
+│ ├── dto/
+│ ├── entity/
+│ ├── repository/
+│ └── service/
+│
+├── like/
+│ ├── controller/
+│ ├── entity/
+│ ├── repository/
+│ └── service/
+│
+├── common/
+│ ├── exception/
+│ ├── response/
+│ └── util/
+│
+├── config/
+│ ├── SecurityConfig.java
+│ ├── SwaggerConfig.java
+│ └── CorsConfig.java
+│
+└── BlogPlatformApplication.java
