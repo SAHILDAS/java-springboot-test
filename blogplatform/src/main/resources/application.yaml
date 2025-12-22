@@ -13,5 +13,8 @@ spring:
     show-sql: true
     open-in-view: false
 
+  flyway:
+    enabled: false
+
 server:
   port: 8081
